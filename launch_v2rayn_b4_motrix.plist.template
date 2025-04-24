@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>launch_v2rayn_b4_motrix</string>
+
+    <key>ProgramArguments</key>
+    <array>
+        <string>{{USER_HOME}}/Scripts/launch_v2rayn_b4_motrix.sh</string>
+    </array>
+
+    <key>RunAtLoad</key>
+    <true/>
+
+    <key>StandardOutPath</key>
+    <string>/tmp/launch_v2rayn_b4_motrix.log</string>
+    <key>StandardErrorPath</key>
+    <string>/tmp/launch_v2rayn_b4_motrix.err</string>
+</dict>
+</plist>
